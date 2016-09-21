@@ -1,5 +1,5 @@
 FROM php:apache
-MAINTAINER d9magai
+MAINTAINER fujisada
 
 RUN echo '<?php phpinfo();' > /var/www/html/index.php
 
